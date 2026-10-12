@@ -32,6 +32,7 @@ build to prove it, and the keep-alive notification needs `POST_NOTIFICATIONS` as
 
 ## Untried on a watch
 
-The settings, alarm, steps, file, call, vibrate and http messages pass the firmware's simulator
-tests and this app's tests against the mock watch, but have not yet run against a PineTime with
-the matching firmware.
+The settings, alarm, steps, status, file, backup, restore, call and http messages (including a
+POST) ran on a PineTime through the command line tool on 2026-10-10. Still unchecked there: how a
+`vibrate` count feels, the 1024-character cut on http answers, and the screens on a phone, which
+only ran against the mock watch on web.
