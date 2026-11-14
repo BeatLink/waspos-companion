@@ -1,5 +1,7 @@
 # WaspOS Companion
 
+<a href="https://liberapay.com/BeatLink/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+
 A React Native (Expo) phone app for watches running [wasp-os](https://github.com/wasp-os/wasp-os),
 the MicroPython firmware for the PineTime. It talks to the watch over the Nordic UART Service using
 the same Gadgetbridge-style JSON messages the firmware already understands.
